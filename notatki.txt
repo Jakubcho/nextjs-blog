@@ -1,0 +1,18 @@
+1. Linkowanie
+Linkujemy wewnętrznie za pomocą <Link> zawnętrznie normalnie <a>
+
+2.Skrypty
+Skrypty zaciągamy do elementi <Head> jeśli chcemy kontrolować ładowanie itd można użyć <Script>
+
+3. css
+Możemy używać normalnie css ale możemy dodać np:"layout.module.css" zaimportować to w elemencie 
+jako style. Dzięki temu mamy automatyczne nazwy klasy i nam się style nie nadpiszą no bajka po prostu
+Aby dodać styl globalny css należy stworzyć plik _app.js w nim zaimportować style/global.css
+
+4.Podstrony
+Postrony tworzymy poprzez dodanie elementu do folderu pages;
+
+5. renderowanie
+Aby wyrenderować strone z pobraniem danych  z api należy użyć getStaticProps
+
+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
